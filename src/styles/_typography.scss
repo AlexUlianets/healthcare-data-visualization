@@ -1,0 +1,15 @@
+// typography.scss
+
+@import './variables';
+
+.chart-header {
+  font-size: 1.5rem;
+  color: $secondary-color;
+  margin: 0.5rem;
+}
+
+.stats div {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: $secondary-color;
+}

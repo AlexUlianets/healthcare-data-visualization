@@ -1,0 +1,57 @@
+{
+  "name": "health-barriers-app",
+  "version": "1.0.0",
+  "description": "Health barriers data",
+  "main": "src/index.js",
+  "scripts": {
+    "scss": "sass --watch src/App.scss:src/App.css",
+    "start": "npm run scss & react-scripts start",
+    "build": "sass src/App.scss:src/App.css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "health",
+    "barriers",
+    "visualization",
+    "map",
+    "chart"
+  ],
+  "author": "Oleksandr",
+  "license": "",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@react-google-maps/api": "^2.19.3",
+    "axios": "^0.27.2",
+    "chart.js": "^3.7.1",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "leaflet": "^1.7.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.0.1",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.0.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.3",
+    "xlsx": "^0.17.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "sass": "^1.77.8",
+    "web-vitals": "^2.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

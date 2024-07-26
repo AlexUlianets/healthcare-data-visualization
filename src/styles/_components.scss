@@ -1,0 +1,29 @@
+@import './variables';
+@import './mixins';
+
+.header-title {
+  display: flex;
+  border-bottom: 0.1rem solid $secondary-color;
+  background-color: $primary-color;
+
+  h1 {
+    margin: 0;
+    flex: 1;
+  }
+
+  .update-button {
+    cursor: pointer;
+    background-color: transparent;
+    color: $secondary-color;
+    width: 2rem;
+    border: 0;
+    font-size: 2rem;
+  }
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: $spacing-unit;
+  background-color: $primary-color;
+}
